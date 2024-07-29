@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 
 function Testimonials() {
   return (
-    <section className=" p-40 flex flex-col items-center bg-cyan-200">
-    <header className="text-center text-3xl font-bold pb-10">
+    <section className=" lg:p-40 flex flex-col items-center bg-cyan-200 py-20">
+    <header className="text-center text-xl lg:text-3xl font-black pb-10">
         Testimonials
     </header>
     <section className=" flex flex-col lg:flex-row flex-wrap justify-center">
