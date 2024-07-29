@@ -7,13 +7,13 @@ import React from 'react'
 export default function Welcome() {
   return (
     <>
-    <div className="grid grid-row justify-center items-center  min-h-screen bg-cyan-200">
+    <div className="grid grid-row justify-center items-center  h-auto lg:min-h-screen bg-cyan-200">
       <img src={hive} alt="hive" />
     </div>
     <section className="lg:p-20">
       <div className="p-20 lg:px-52">
         <div className=" text-xl lg:text-3xl font-black pb-5">What we're learning:</div>
-        <div className="text-lg font-medium">
+        <div className="text-md font-medium">
           <strong>What’s This “NEW MATH”?</strong> It is my personal belief that today’s “NEW
           MATH” helps develop our children into critical thinking mathematical
           engineers. Engineers have numerous ways to process information and
