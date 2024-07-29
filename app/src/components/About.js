@@ -36,8 +36,8 @@ function About () {
           <img src={header} alt='vision' />
         </div>
       </section>
-      <section className='p-10'>
-        <div className='bg-white rounded-3xl flex flex-col justify-center items-center px-10'>
+      <section className='px-10  lg:px-52 pb-20'>
+        <div className='bg-white rounded-3xl flex flex-col justify-center items-center px-10 lg:px-40 lg:pb-20'>
         <img src={newBee} alt='honey-bee' className='w-40 ' />
 
           <div className='font-bold text-2xl'>About</div>
