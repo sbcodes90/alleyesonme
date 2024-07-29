@@ -4,7 +4,7 @@ import newBee from "../images/new-bee.png";
 
 export default function Navigation () {
 
-    const [show, setshow] = useState(false);
+    const [open, setIsOpen] = useState(false);
 
 
   return (
@@ -26,7 +26,8 @@ export default function Navigation () {
           </span>
         </div>
         <div className="block lg:hidden">
-          <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+          <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          onClick={()=> setIsOpen(!open) }>
             <svg
               className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
@@ -37,7 +38,43 @@ export default function Navigation () {
             </svg>
           </button>
         </div>
-        <div className="w-full hidden flex-row lg:flex lg:items-center lg:w-auto">
+        { open &&
+        <div className="w-full flex-col">
+          <div className="text-sm font-semibold lg:flex-row">
+            <Link
+              to="about"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+            >
+              About
+            </Link>
+            <Link
+              to="/Home/about"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+            >
+              Programs
+            </Link>
+            <Link
+              to="/home/signup"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+            >
+              Become a Bee
+            </Link>
+            <Link
+              to="/Home/about"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+            >
+              Donate
+            </Link>
+            <Link
+              to="/Home/about"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+            >
+              Contact Us
+            </Link>
+          </div>
+        </div>
+}
+<div className="w-full hidden  flex-row lg:flex lg:items-center lg:w-auto">
           <div className="text-sm font-semibold lg:flex-row">
             <Link
               to="about"
