@@ -59,12 +59,12 @@ export default function Navigation () {
             >
               Become a Bee
             </Link>
-            <Link
+           {/*  <Link
               to="/Home/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Donate
-            </Link>
+            </Link> */}
             <Link
               to="/Home/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
@@ -94,12 +94,12 @@ export default function Navigation () {
             >
               Become a Bee
             </Link>
-            <Link
+         {/*    <Link
               to="/Home/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Donate
-            </Link>
+            </Link> */}
             <Link
               to="/Home/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
