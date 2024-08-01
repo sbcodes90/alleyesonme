@@ -1,9 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import beeIcon from '../images/bee.png';
 import honeycomb from '../images/honey-comb.png';
 import miniHive from '../images/sweet.png';
-import bee from '../images/laugh.png';
 
 export default function ProgramInfo () {
   return (
@@ -23,7 +21,7 @@ export default function ProgramInfo () {
             </div>
             <div>
               One on One Tutoring services are conveniently provided via
-              Instagram @_holisticedu. In person sessions will be available in
+              <strong>{" "}Instagram @_holisticedu.{" "}</strong> In person sessions will be available in
               Atlanta coming soon. Does your child tend to forget things said
               during math lessons easily? No problem! Tell me the standard/skill
               or simply send a picture of what they are learning for the
@@ -32,7 +30,7 @@ export default function ProgramInfo () {
               (oh we know). Watch them master content and teach you a few new
               strategies. Feel the reward of knowing you invested in your
               child’s academic success! Have a certified educator mirror your
-              child’s IEP math goals and strategies as closely as possible. You
+              child’s <strong>IEP math goals and strategies</strong> as closely as possible. You
               pick the time slots that work best for your schedule and see your
               child’s overall level of confidence increase!
             </div>
@@ -40,14 +38,15 @@ export default function ProgramInfo () {
               <div className="font-black text-center lg:text-left">
                 Sign up for updates below ... Enrollment starting soon!
               </div>
-              <input
+             {/*  <input
                 type="text"
                 placeholder="Email Address"
                 className="border-black border-2 border-solid p-5 rounded-3xl"
-              />
-              <button className="bg-black text-white font-bold p-5 rounded-3xl">
+              /> */}
+              <a href="mailto:123alleyesonmellc@gmail.com?subject=One%20on%20One%20Tutoring&body=Sign%20me%20up%20for%20updates" className="bg-black text-white font-bold p-5 rounded-3xl text-center">Click to sign up!</a>
+             {/*  <button className="bg-black text-white font-bold p-5 rounded-3xl">
                 Sign Up
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
