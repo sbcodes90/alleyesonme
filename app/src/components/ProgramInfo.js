@@ -70,24 +70,26 @@ export default function ProgramInfo () {
               review/assist you
             </div>
             <div className="grid  grid-cols-1 lg:grid-rows-1 justify-evenly pt-5 gap-5">
-              <div className="font-black text-center lg:text-left">
+              <div className="font-black text-center">
                 Sign up for updates below ...<br></br> Enrollment starting soon!
               </div>
-              <input
+           {/*    <input
                 type="text"
                 placeholder="Email Address"
                 className="border-black border-2 border-solid p-5 rounded-3xl"
               />
               <button className="bg-black text-white font-bold p-5 rounded-3xl">
                 Sign Up
-              </button>
+              </button> */}
+          <a href="mailto:123alleyesonmellc@gmail.com?subject=Parent%20Bootcamp&body=Sign%20me%20up%20for%20updates" className="bg-black text-white font-bold p-5 rounded-3xl text-center mt-2 mx-9 lg:mx-5">Click to sign up!</a>
+
             </div>
           </div>
         </div>
       </div>
       <div>
         <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center lg:px-10 gap-5">
-          <div className="bg-teal-300 lg:px-20 py-20 lg:py-40 lg:rounded-3xl font-bold text-2xl flex flex-col justify-center items-center">
+          <div className="bg-teal-300 lg:px-20 py-20 lg:py-40 rounded-3xl font-bold text-2xl flex flex-col justify-center items-center lg:mt-10">
             <img src={miniHive} alt="beeIcon" className="pb-2 w-40" />
             <div>Mathematics in the Park</div>
           </div>
@@ -99,17 +101,20 @@ export default function ProgramInfo () {
               stay with your child the entire duration of the lesson.{' '}
             </div>
             <div className="grid  grid-cols-1 lg:grid-rows-1 justify-evenly pt-5 gap-5">
-              <div className="font-black text-center lg:text-left">
+              <div className="font-black text-center lg:text-center">
                 Sign up for updates below ... Enrollment starting soon!
               </div>
-              <input
+              {/* <input
                 type="text"
                 placeholder="Email Address"
                 className="border-black border-2 border-solid p-5 rounded-3xl"
               />
               <button className="bg-black text-white font-bold p-5 rounded-3xl">
                 Sign Up
-              </button>
+
+              </button> */}
+            <a href="mailto:123alleyesonmellc@gmail.com?subject=Mathematics%20In%20The%20Park&body=Sign%20me%20up%20for%20updates" className="bg-black text-white font-bold p-5 rounded-3xl text-center mt-2 mx-9 lg:mx-5">Click to sign up!</a>
+
             </div>
           </div>
         </div>
@@ -165,17 +170,19 @@ export default function ProgramInfo () {
               </div>
             </div>
             <div className="grid  grid-cols-1 lg:grid-rows-1 justify-evenly pt-5 gap-5">
-              <div className="font-black text-center lg:text-left pt-14">
+              <div className="font-black text-center lg:text-center pt-14">
                 Sign up for updates below ... Enrollment starting soon!
               </div>
-              <input
+             {/*  <input
                 type="text"
                 placeholder="Email Address"
                 className="border-black border-2 border-solid p-5 rounded-3xl"
               />
               <button className="bg-black text-white font-bold p-5 rounded-3xl">
                 Sign Up
-              </button>
+              </button> */}
+          <a href="mailto:123alleyesonmellc@gmail.com?subject=Mathematician%20Toolbox&body=Sign%20me%20up%20for%20updates" className="bg-black text-white font-bold p-5 rounded-3xl text-center mt-2 mx-9 lg:mx-5">Click to sign up!</a>
+
             </div>
           </div>
         </div>
