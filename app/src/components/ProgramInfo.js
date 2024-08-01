@@ -16,10 +16,10 @@ export default function ProgramInfo () {
             <div>One-on-One Tutoring</div>
           </div>
           <div className="bg-white p-10 lg:p-12 rounded-3xl">
-            <div className="font-bold text-left pb-5 px-7">
+            <div className="font-bold text-left pb-5 px-5">
               Stop stressing about “New Math”!
             </div>
-            <div className='p-7'>
+            <div className='p-5'>
               One on One Tutoring services are conveniently provided via
               <strong>{" "}Instagram @_holisticedu.{" "}</strong> In person sessions will be available in
               Atlanta coming soon. Does your child tend to forget things said
@@ -35,8 +35,8 @@ export default function ProgramInfo () {
               child’s overall level of confidence increase!
             </div>
             <div className="grid  grid-cols-1 lg:grid-rows-1 justify-evenly pt-5 gap-5">
-              <div className="font-black text-center lg:text-left lg:pl-7 lg:text-center">
-                Sign up for updates below ... Enrollment starting soon!
+              <div className="font-black text-center px-7 lg:pl-7 lg:text-center">
+                Sign up for updates below...<br></br> Enrollment starting soon!
               </div>
              {/*  <input
                 type="text"
