@@ -3,7 +3,6 @@ import beeIcon from "../images/bee.png";
 import honeycomb from "../images/honey-comb.png";
 import miniHive from "../images/sweet.png";
 import bee from "../images/laugh.png";
-import { Link } from 'react-router-dom';
 
 export default function Programs() {
   return (
