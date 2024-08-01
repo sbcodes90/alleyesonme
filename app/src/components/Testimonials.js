@@ -4,7 +4,6 @@ import t2 from "../images/t2.png";
 import t3 from "../images/t3.png";
 import t4 from "../images/t4.png";
 import t5 from "../images/t5.png";
-import { Link } from 'react-router-dom';
 
 
 function Testimonials() {

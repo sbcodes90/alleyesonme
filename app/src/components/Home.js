@@ -3,7 +3,6 @@ import Programs from "../components/Programs";
 import Testimonials from "./Testimonials.js";
 
 import React from 'react'
-import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
