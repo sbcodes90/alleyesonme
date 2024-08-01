@@ -48,29 +48,29 @@ export default function Navigation () {
               About
             </Link>
             <Link
-              to="/Home/about"
+            to="program-info"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Programs
             </Link>
-            <Link
+           {/*  <Link
               to="/home/signup"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Become a Bee
-            </Link>
+            </Link> */}
            {/*  <Link
               to="/Home/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Donate
             </Link> */}
-            <Link
+           {/*  <Link
               to="/Home/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Contact Us
-            </Link>
+            </Link> */}
           </div>
         </div>
 }
@@ -88,24 +88,24 @@ export default function Navigation () {
             >
               Programs
             </Link>
-            <Link
+            {/* <Link
               to="/home/signup"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Become a Bee
-            </Link>
+            </Link> */}
          {/*    <Link
               to="/Home/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Donate
             </Link> */}
-            <Link
+           {/*  <Link
               to="/Home/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               Contact Us
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>

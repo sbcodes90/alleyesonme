@@ -36,7 +36,7 @@ export default function ProgramInfo () {
             </div>
             <div className="grid  grid-cols-1 lg:grid-rows-1 justify-evenly pt-5 gap-5">
               <div className="font-black text-center px-7 lg:pl-7 lg:text-center">
-                Sign up for updates below...<br></br> Enrollment starting soon!
+                Sign up for updates...<br></br> Enrollment starting soon!
               </div>
              {/*  <input
                 type="text"
@@ -58,30 +58,20 @@ export default function ProgramInfo () {
             <div>Parent Bootcamp</div>
           </div>
           <div className="bg-white p-10 lg:p-12 rounded-3xl">
-            <div className="font-bold text-left pb-5">
-              Have you ever looked at your child’s MATH homework and
+          <div className="font-bold text-left pb-5 px-5">
+          Have you ever looked at your child’s MATH homework and
               automatically got a headache?{' '}
             </div>
-            <div>
+            <div className='p-5'>
               It looks like a foreign language, right? Did you help them find
               the answer and it came back marked wrong? Children today are being
               taught "NEW" strategies to solve math problems. As an educator,
               I’ve never felt comfortable sending work home for parents to
-              review/assist your child without offering the opportunities to
-              teach parents the new strategies. How can you adequately help your
-              child if you have no clue what they are doing? You cannot. Parent
-              Boot Camp allows me to go through step by step and model how to
-              accurately use the "NEW MATH" strategies being used in classrooms
-              around the world today. This opportunity will ensure you are
-              familiar with what your child will be bringing home. Attending our
-              parents only, judgement free boot camp will give you the
-              confidence needed to fully support your young scholar. This is NOT
-              the same math we did in school. Remember, it takes a village! Let
-              me help you so you can help your baby.
+              review/assist you
             </div>
             <div className="grid  grid-cols-1 lg:grid-rows-1 justify-evenly pt-5 gap-5">
               <div className="font-black text-center lg:text-left">
-                Sign up for updates below ... Enrollment starting soon!
+                Sign up for updates below ...<br></br> Enrollment starting soon!
               </div>
               <input
                 type="text"
@@ -135,7 +125,7 @@ export default function ProgramInfo () {
             <div className="border-black border-solid rounded-3xl border-2 p-5 mt-5 bg-black text-white">
               <div className="font-bold pt-5 pb-5 pl-2">
                 Have your child’s math classroom delivered to your front door!
-                {' '}
+          
               </div>
 
               <div className="pl-2">
