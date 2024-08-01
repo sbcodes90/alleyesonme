@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import React, { useRef, useState, Fragment } from 'react';
 import emailjs from '@emailjs/browser';
 import {
   Description,
@@ -7,7 +7,9 @@ import {
   DialogTitle,
   DialogBackdrop,
   Listbox,
+  Transition
 } from '@headlessui/react';
+import { CheckIcon, ChevronUpDownIcon, XMarkIcon } from '@heroicons/react/20/solid'
 
 export default function ProgramForm({isOpen, setIsOpen}) {
   const form = useRef ();
@@ -19,7 +21,17 @@ export default function ProgramForm({isOpen, setIsOpen}) {
     {id: 5, name: 'Katelyn Rohan'},
   ];
 
+  const people = [
+    { name: 'Wade Cooper' },
+    { name: 'Arlene Mccoy' },
+    { name: 'Devon Webb' },
+    { name: 'Tom Cook' },
+    { name: 'Tanya Fox' },
+    { name: 'Hellen Schmidt' },
+  ]
+  
   const [selectedPrograms, setSelectedPrograms] = useState ([programs[0], programs[1]]);
+  const [selected, setSelected] = useState(people[0])
 
   const sendEmail = e => {
     e.preventDefault ();
@@ -54,82 +66,126 @@ export default function ProgramForm({isOpen, setIsOpen}) {
       <div className="fixed inset-0 w-screen overflow-y-auto p-4">
         <div className="flex min-h-full items-center justify-center">
           {' '}       {/* The actual dialog panel  */}
-          <DialogPanel className="max-w-lg space-y-4 bg-white p-12 lg:min-w-[1000px] lg:h-auto">
-            <DialogTitle className="font-bold">Program Sign Up</DialogTitle>
-            <Description className="lg:p-40">
+          <DialogPanel className="max-w-lg space-y-4 bg-white p-12 lg:min-w-[800px] lg:h-auto rounded-3xl">
+            <XMarkIcon className='w-8 float-right' onClick={() => setIsOpen(false)} />
+            <DialogTitle className='text-center text-2xl font-black'>Program Sign Up</DialogTitle>
+            <Description className="px-20">
 
               <form ref={form} onSubmit={sendEmail}>
                 <div>
-                  <header>Parent Information</header>
+                  <header className='font-bold py-5 text-lg'>Parent Information</header>
                   <input
                     type="text"
-                    name="first_name"
+                    name="parent_first_name"
                     placeholder="First Name"
-                    className=" border-black border-solid border-2 w-full rounded-3xl p-5 mb-3"
+                    className=" border-black border-solid border-2 w-full rounded-2xl p-5 mb-3"
                   />
                   <input
                     type="text"
-                    name="last_name"
+                    name="parent_last_name"
                     placeholder="Last Name"
-                    className=" border-black border-solid border-2 w-full rounded-3xl p-5 mb-3"
+                    className=" border-black border-solid border-2 w-full rounded-2xl p-5 mb-3"
                   />
                   <input
                     type="text"
                     name="user_email"
                     placeholder="Email address"
-                    className=" border-black border-solid border-2 w-full rounded-3xl p-5 mb-3"
+                    className=" border-black border-solid border-2 w-full rounded-2xl p-5 mb-3"
                   />
-                  <header>Child Information</header>
-                  <p>Max 2</p>
-                  <p>Child #1</p>
+                  <header className='font-bold pt-5 text-lg'>Child Information</header>
+                  <p className='font-semibold pb-7'>(Max 2)</p>
+                  <p className='font-semibold pb-5'>Child #1</p>
                   <input
                     type="text"
-                    name="first_name"
+                    name="child_first_name_1"
                     placeholder="First Name"
-                    className=" border-black border-solid border-2 w-full rounded-3xl p-5 mb-3"
+                    className=" border-black border-solid border-2 w-full rounded-2xl p-5 mb-3"
                   />
                   <input
                     type="text"
-                    name="last_name"
+                    name="child_Last Name_1"
                     placeholder="Last Name"
-                    className=" border-black border-solid border-2 w-full rounded-3xl p-5 mb-3"
+                    className=" border-black border-solid border-2 w-full rounded-2xl p-5 mb-3"
                   />
-                  <p>Child #2</p>
+                  <p className='font-semibold py-5'>Child #2</p>
                   <input
                     type="text"
-                    name="first_name"
+                    name="child_first_name_2"
                     placeholder="First Name"
-                    className=" border-black border-solid border-2 w-full rounded-3xl p-5 mb-3"
+                    className=" border-black border-solid border-2 w-full rounded-2xl p-5 mb-3"
                   />
                   <input
                     type="text"
-                    name="last_name"
+                    name="child_last_name_2"
                     placeholder="Last Name"
-                    className=" border-black border-solid border-2 w-full rounded-3xl p-5 mb-3"
+                    className=" border-black border-solid border-2 w-full rounded-2xl p-5 mb-3"
                   />
                 </div>
-                <div>
-                  <Listbox
-                    value={selectedPrograms}
-                    onChange={setSelectedPrograms}
-                    multiple
-                  >
-                    <Listbox.Button>
-                      {selectedPrograms.map (program => program.name).join (', ')}
-                    </Listbox.Button>
-                    <Listbox.Options>
-                      {programs.map (program => (
-                        <Listbox.Option key={program.id} value={program}>
-                          {program.name}
-                        </Listbox.Option>
-                      ))}
-                    </Listbox.Options>
-                  </Listbox>
+                <header className='font-bold py-5 text-lg'>Programs</header>
+                <div className="border-2 border-solid border-black p-5 text-center rounded-2xl">
+                    
+
+
+    <div className=" w-72">
+      <Listbox value={selected} onChange={setSelected}>
+        <div className="relative mt-1">
+          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 pr-10 text-left shadow-md focus:outline-none focus-visible:border-indigo-500 focus-visible:ring-2 focus-visible:ring-white/75 focus-visible:ring-offset-2 focus-visible:ring-offset-orange-300 sm:text-sm">
+            <span className="block truncate">{selected.name}</span>
+            <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+              <ChevronUpDownIcon
+                className="h-5 w-5 text-gray-400"
+                aria-hidden="true"
+              />
+            </span>
+          </Listbox.Button>
+          <Transition
+            as={Fragment}
+            leave="transition ease-in duration-100"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+            <Listbox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm">
+              {people.map((person, personIdx) => (
+                <Listbox.Option
+                  key={personIdx}
+                  className={({ active }) =>
+                    `relative cursor-default select-none py-2 pl-10 pr-4 ${
+                      active ? 'bg-amber-100 text-amber-900' : 'text-gray-900'
+                    }`
+                  }
+                  value={person}
+                >
+                  {({ selected }) => (
+                    <>
+                      <span
+                        className={`block truncate ${
+                          selected ? 'font-medium' : 'font-normal'
+                        }`}
+                      >
+                        {person.name}
+                      </span>
+                      {selected ? (
+                        <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-amber-600">
+                          <CheckIcon className="h-5 w-5" aria-hidden="true" />
+                        </span>
+                      ) : null}
+                    </>
+                  )}
+                </Listbox.Option>
+              ))}
+            </Listbox.Options>
+          </Transition>
+        </div>
+      </Listbox>
+    </div>
+                  
+            
+                  
                 </div>
                 <div>
                   <button
                     type="submit"
-                    className="bg-black text-white w-full rounded-3xl py-5"
+                    className="bg-black text-white w-full rounded-3xl py-5 mt-20"
                   >
                     Sign Up
                   </button>
