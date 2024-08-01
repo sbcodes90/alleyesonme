@@ -89,11 +89,11 @@ export default function ProgramInfo () {
       </div>
       <div>
         <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center lg:px-10 gap-5">
-          <div className="bg-teal-300 lg:px-20 py-20 lg:py-40 rounded-3xl font-bold text-2xl flex flex-col justify-center items-center lg:mt-10">
+          <div className="bg-teal-300 lg:px-20 py-20 lg:py-40 lg:rounded-3xl font-bold text-2xl flex flex-col justify-center items-center lg:mt-10">
             <img src={miniHive} alt="beeIcon" className="pb-2 w-40" />
             <div>Mathematics in the Park</div>
           </div>
-          <div className="bg-white p-10 lg:p-12 rounded-3xl">
+          <div className="bg-white p-10 lg:p-12 lg:rounded-3xl">
             <div>
               Join me as we laugh and learn while enjoying some Vitamin D! This
               is a FREE event held on various Saturdays and Sundays from
@@ -127,8 +127,8 @@ export default function ProgramInfo () {
               <div>Mathematician Toolbox</div>
 
             </div>
-            <div className="border-black border-solid rounded-3xl border-2 p-5 mt-5 bg-black text-white">
-              <div className="font-bold pt-5 pb-5 pl-2">
+            <div className="border-black border-solid lg:rounded-3xl border-2 p-5 lg:mt-5 bg-black text-white">
+              <div className="font-bold lg:pt-5 pb-5 pl-2">
                 Have your child’s math classroom delivered to your front door!
           
               </div>
