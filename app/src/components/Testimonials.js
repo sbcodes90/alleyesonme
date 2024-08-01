@@ -21,9 +21,9 @@ function Testimonials() {
         <img src={t5} alt="testimonal" className="w-[600px] pt-10" />
 
     </section>
-    <Link to="/home/signup" className="text-center text-1xl font-bold bg-black text-white px-20 py-5 rounded-3xl mt-16">
+    {/* <Link to="/home/signup" className="text-center text-1xl font-bold bg-black text-white px-20 py-5 rounded-3xl mt-16">
         Become a Bee
-    </Link>
+    </Link> */}
 </section>
   )
 }
