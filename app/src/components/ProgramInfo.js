@@ -16,10 +16,10 @@ export default function ProgramInfo () {
             <div>One-on-One Tutoring</div>
           </div>
           <div className="bg-white p-10 lg:p-12 rounded-3xl">
-            <div className="font-bold text-left pb-5">
+            <div className="font-bold text-left pb-5 px-7">
               Stop stressing about “New Math”!
             </div>
-            <div>
+            <div className='p-7'>
               One on One Tutoring services are conveniently provided via
               <strong>{" "}Instagram @_holisticedu.{" "}</strong> In person sessions will be available in
               Atlanta coming soon. Does your child tend to forget things said
@@ -43,7 +43,7 @@ export default function ProgramInfo () {
                 placeholder="Email Address"
                 className="border-black border-2 border-solid p-5 rounded-3xl"
               /> */}
-              <a href="mailto:123alleyesonmellc@gmail.com?subject=One%20on%20One%20Tutoring&body=Sign%20me%20up%20for%20updates" className="bg-black text-white font-bold p-5 rounded-3xl text-center">Click to sign up!</a>
+              <a href="mailto:123alleyesonmellc@gmail.com?subject=One%20on%20One%20Tutoring&body=Sign%20me%20up%20for%20updates" className="bg-black text-white font-bold p-5 rounded-3xl text-center mt-2 mx-9">Click to sign up!</a>
              {/*  <button className="bg-black text-white font-bold p-5 rounded-3xl">
                 Sign Up
               </button> */}
