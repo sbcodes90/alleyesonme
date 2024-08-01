@@ -35,7 +35,7 @@ export default function ProgramInfo () {
               child’s overall level of confidence increase!
             </div>
             <div className="grid  grid-cols-1 lg:grid-rows-1 justify-evenly pt-5 gap-5">
-              <div className="font-black text-center lg:text-left">
+              <div className="font-black text-center lg:text-left lg:pl-7 lg:text-center">
                 Sign up for updates below ... Enrollment starting soon!
               </div>
              {/*  <input
@@ -43,7 +43,7 @@ export default function ProgramInfo () {
                 placeholder="Email Address"
                 className="border-black border-2 border-solid p-5 rounded-3xl"
               /> */}
-              <a href="mailto:123alleyesonmellc@gmail.com?subject=One%20on%20One%20Tutoring&body=Sign%20me%20up%20for%20updates" className="bg-black text-white font-bold p-5 rounded-3xl text-center mt-2 mx-9">Click to sign up!</a>
+              <a href="mailto:123alleyesonmellc@gmail.com?subject=One%20on%20One%20Tutoring&body=Sign%20me%20up%20for%20updates" className="bg-black text-white font-bold p-5 rounded-3xl text-center mt-2 mx-9 lg:mx-5">Click to sign up!</a>
              {/*  <button className="bg-black text-white font-bold p-5 rounded-3xl">
                 Sign Up
               </button> */}
