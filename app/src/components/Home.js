@@ -3,6 +3,7 @@ import Programs from "../components/Programs";
 import Testimonials from "./Testimonials.js";
 
 import React from 'react'
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -26,8 +27,8 @@ export default function Home() {
           <div className="pt-5"><strong>Don’t worry, we are in this together!</strong>
            { ' ' }I have created a program
           specifically for parents to teach you everything you need to assist
-          your child with their assignments. My Parent Boot Camps (make link
-          to go to that tab) are tutoring sessions for adults where you become
+          your child with their assignments. My Parent Boot Camps
+          are tutoring sessions for adults where you become
           the student and learn all the skills and strategies they are using
           in class.</div>
         </div>
