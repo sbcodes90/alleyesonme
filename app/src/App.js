@@ -4,6 +4,7 @@ import LandingPage from './components/LandingPage';
 import Home from './components/Home';
 import ProgramInfo from './components/ProgramInfo';
 import ParentBootcamps from './routes/ParentBootcamps';
+import About from './components/About';
 
 function App () {
   return (
@@ -14,6 +15,8 @@ function App () {
       <Route path="/home" element={ <Home />} />
       <Route path="/program-info"  element={ <ProgramInfo />} />
      <Route path="/parent-bootcamps"  element={ <ParentBootcamps />} />
+     <Route path="/about"  element={ <About />} />
+
 
 
 

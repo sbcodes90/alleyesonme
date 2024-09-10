@@ -16,9 +16,11 @@ export default function Home() {
     </div>
     <section className="lg:p-20">
       <div className="p-10 lg:p-20 lg:px-52">
-        <div className=" text-xl lg:text-3xl font-black pb-5">What we're learning:</div>
+        <span><div className=" text-xl lg:text-3xl font-black pb-5">What we're learning:</div>
+        <div className="text-xl font-medium"> What’s This “NEW MATH”?</div>
+        </span>
         <div className="text-md font-normal">
-          <strong>What’s This “NEW MATH”?</strong> It is my personal belief that today’s “NEW
+          It is my personal belief that today’s “NEW
           MATH” helps develop our children into critical thinking mathematical
           engineers. Engineers have numerous ways to process information and
           solve problems. “New Math” allows students to decompose and analyze

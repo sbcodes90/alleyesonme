@@ -1,10 +1,12 @@
 import React from 'react'
 import header from '../images/about-image.png'
 import newBee from '../images/new-bee.png'
+import Navigation from './Navigation'
 
 function About () {
   return (
     <>
+    <Navigation />
     <div className='bg-cyan-200'>
       <section className=' grid p-10 lg:grid-cols-2 lg:px-20 py-20 gap-10 items-start'>
         <div className='w-full block md:hidden lg:hidden'>

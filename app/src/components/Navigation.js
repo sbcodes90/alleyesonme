@@ -42,7 +42,7 @@ export default function Navigation () {
         <div className="w-full flex-col">
           <div className="text-sm font-semibold lg:flex-row">
             <Link
-              to="about"
+              to="/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               About
@@ -77,7 +77,7 @@ export default function Navigation () {
 <div className="w-full hidden  flex-row lg:flex lg:items-center lg:w-auto">
           <div className="text-sm font-semibold lg:flex-row">
             <Link
-              to="about"
+              to="/about"
               className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
             >
               About
