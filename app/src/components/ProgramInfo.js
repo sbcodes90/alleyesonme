@@ -18,7 +18,7 @@ export default function ProgramInfo() {
         </div>
 
         <section id="tutoring" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-yellow-100 lg:rounded-3xl p-12 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-yellow-100 lg:rounded-3xl p-5 ">
             <div className="flex flex-col justify-center items-center">
               <img src={beeIcon} alt="beeIcon" className=" w-40" />
               <div className="font-bold text-2xl">One-on-One Tutoring</div>
@@ -63,12 +63,12 @@ export default function ProgramInfo() {
           </div>
         </section>
         <section id="parent-bootcamps" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-pink-100 lg:rounded-3xl p-12 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-pink-100 lg:rounded-3xl p-10 ">
             <div className="flex flex-col justify-center items-center">
               <img src={honeycomb} alt="beeIcon" className="pb-2 w-40" />
               <div className="font-bold text-2xl">Parent Bootcamps</div>
             </div>
-            <div className=" rounded-3xl  px-5 lg:px-20 py-5 my-10">
+            <div className=" rounded-3xl lg:px-20 py-5 my-10">
               <div className="text-xl font-bold mb-5 text-center">
                 Have you ever looked at your child’s Math homework and
                 automatically got a headache?
@@ -107,12 +107,12 @@ export default function ProgramInfo() {
           </div>
         </section>
         <section id="mathematics-in-the-park" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
-          <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-teal-100 lg:rounded-3xl p-12 ">
+          <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-teal-100 lg:rounded-3xl p-10 ">
             <div className="flex flex-col justify-center items-center">
               <img src={miniHive} alt="beeIcon" className="pb-2 w-40" />
               <div className="font-bold text-2xl">Mathematics in the Park</div>
             </div>
-            <div className=" rounded-3xl  px-5 lg:px-20 py-5 my-10">
+            <div className=" rounded-3xl   lg:px-20 py-5 my-10">
               <div className="text-xl font-bold mb-5 text-center">
                 Join me as we laugh and learn while enjoying some Vitamin D!
               </div>
@@ -142,7 +142,7 @@ export default function ProgramInfo() {
               <img src={miniHive} alt="beeIcon" className="pb-2 w-40" />
               <div className="font-bold text-2xl">Mathematician Toolbox</div>
             </div>
-            <div className=" rounded-3xl  px-5 lg:px-20 py-5 my-10">
+            <div className=" rounded-3xl  lg:px-20 py-10">
               <div className="text-xl font-bold mb-5 text-center">
                 Have your child’s math classroom delivered to your front door!
               </div>
