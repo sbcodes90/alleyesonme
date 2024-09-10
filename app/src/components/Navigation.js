@@ -78,15 +78,15 @@ export default function Navigation () {
           <div className="text-sm font-semibold lg:flex-row">
             <Link
               to="/about"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 font-light"
             >
-              About
+              ABOUT
             </Link>
             <Link
               to="/program-info"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 font-light"
             >
-              Programs
+              PROGRAMS
             </Link>
             {/* <Link
               to="/home/signup"
