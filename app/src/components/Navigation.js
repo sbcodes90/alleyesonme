@@ -39,17 +39,17 @@ export default function Navigation () {
           </button>
         </div>
         { open &&
-        <div className="w-full flex-col">
-          <div className="text-sm font-semibold lg:flex-row">
+        <div className="w-full flex flex-col justify-center items-center p-5">
+          <div className="text-sm font-semibold lg:flex-row ">
             <Link
               to="/about"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 p-3"
             >
               About
             </Link>
             <Link
             to="/program-info"
-              className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4"
+              className="block lg:inline-block lg:mt-0 text-white mr-4 p-3"
             >
               Programs
             </Link>
@@ -74,7 +74,7 @@ export default function Navigation () {
           </div>
         </div>
 }
-<div className="w-full hidden  flex-row lg:flex lg:items-center lg:w-auto">
+<div  id="desktop" className="w-full hidden  flex-row lg:flex lg:items-center lg:w-auto">
           <div className="text-sm font-semibold lg:flex-row">
             <Link
               to="/about"
