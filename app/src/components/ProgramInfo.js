@@ -17,7 +17,7 @@ export default function ProgramInfo() {
           Programs
         </div>
 
-        <section className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
+        <section id="tutoring" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-yellow-100 lg:rounded-3xl p-12 ">
             <div className="flex flex-col justify-center items-center">
               <img src={beeIcon} alt="beeIcon" className=" w-40" />
@@ -106,7 +106,7 @@ export default function ProgramInfo() {
             </div>
           </div>
         </section>
-        <section className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
+        <section id="mathematics-in-the-park" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-teal-100 lg:rounded-3xl p-12 ">
             <div className="flex flex-col justify-center items-center">
               <img src={miniHive} alt="beeIcon" className="pb-2 w-40" />
@@ -136,7 +136,7 @@ export default function ProgramInfo() {
           </div>
         </section>
 
-        <section className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
+        <section id="math-toolbox" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
           <div className="grid grid-cols-1 w-full justify-center items-center bg-purple-100 lg:rounded-3xl p-12 ">
             <div className="flex flex-col justify-center items-center">
               <img src={miniHive} alt="beeIcon" className="pb-2 w-40" />
