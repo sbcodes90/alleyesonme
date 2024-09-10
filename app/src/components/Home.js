@@ -1,12 +1,16 @@
 import hive from "../images/WelcomeToTheHive.png";
 import Programs from "../components/Programs";
 import Testimonials from "./Testimonials.js";
-
 import React from 'react'
+import Navigation from "./Navigation.js";
+import { Link } from "react-router-dom";
 
 export default function Home() {
+
+
   return (
     <>
+    <Navigation />
     <div className="grid grid-row justify-center items-center  h-auto lg:min-h-screen bg-cyan-200 pt-10">
       <img src={hive} alt="hive" />
     </div>
@@ -26,7 +30,7 @@ export default function Home() {
           <div className="pt-5"><strong>Don’t worry, we are in this together!</strong>
            { ' ' }I have created a program
           specifically for parents to teach you everything you need to assist
-          your child with their assignments. My Parent Boot Camps
+          your child with their assignments. My <Link className="font-bold" to="/parent-bootcamps">Parent Boot Camps</Link>{' '}
           are tutoring sessions for adults where you become
           the student and learn all the skills and strategies they are using
           in class.</div>

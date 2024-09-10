@@ -3,14 +3,16 @@ import beeIcon from '../images/bee.png';
 import honeycomb from '../images/honey-comb.png';
 import miniHive from '../images/sweet.png';
 import ProgramForm from './ProgramForm';
+import Navigation from './Navigation';
 
 export default function ProgramInfo () {
   let [isOpen, setIsOpen] = useState(false)
  
   return (
     <>
+    
     { isOpen && <ProgramForm setIsOpen={setIsOpen} isOpen={isOpen} /> }
-
+    <Navigation />
     <section className="pb-20">
       <div className=" text-xl lg:text-2xl font-black py-16 text-center">
         Programs
