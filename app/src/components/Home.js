@@ -4,7 +4,7 @@ import Testimonials from "./Testimonials.js";
 import React from 'react'
 import Navigation from "./Navigation.js";
 import { Link } from "react-router-dom";
-
+import { HashLink } from 'react-router-hash-link';
 export default function Home() {
 
 
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="pt-5"><strong>Don’t worry, we are in this together!</strong>
            { ' ' }I have created a program
           specifically for parents to teach you everything you need to assist
-          your child with their assignments. My <Link className="font-bold" to="/parent-bootcamps">Parent Boot Camps</Link>{' '}
+          your child with their assignments. My <HashLink className="font-bold" smooth to="/program-info#parent-bootcamps">Parent Boot Camps</HashLink>{' '}
           are tutoring sessions for adults where you become
           the student and learn all the skills and strategies they are using
           in class.</div>

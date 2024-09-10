@@ -62,11 +62,11 @@ export default function ProgramInfo() {
             </div>
           </div>
         </section>
-        <section className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
+        <section id="parent-bootcamps" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-pink-100 lg:rounded-3xl p-12 ">
             <div className="flex flex-col justify-center items-center">
               <img src={honeycomb} alt="beeIcon" className="pb-2 w-40" />
-              <div className="font-bold text-2xl">Parent Bootcamp</div>
+              <div className="font-bold text-2xl">Parent Bootcamps</div>
             </div>
             <div className=" rounded-3xl  px-5 lg:px-20 py-5 my-10">
               <div className="text-xl font-bold mb-5 text-center">
