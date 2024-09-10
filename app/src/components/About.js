@@ -8,7 +8,7 @@ function About () {
     <>
     <Navigation />
     <div className='bg-cyan-200'>
-      <section className=' grid p-10 lg:grid-cols-2 lg:px-20 py-20 gap-10 items-start'>
+      <section className=' grid p-5 lg:grid-cols-2 lg:px-20 py-20 gap-10 items-start'>
         <div className='w-full block md:hidden lg:hidden'>
           <img src={header} alt='vision' />
         </div>
@@ -38,7 +38,7 @@ function About () {
           <img src={header} alt='vision' />
         </div>
       </section>
-      <section className='px-10  lg:px-52 pb-20'>
+      <section className='px-5  lg:px-52 pb-20'>
         <div className='bg-white rounded-3xl flex flex-col justify-center items-center px-10 lg:px-40 lg:pb-20'>
         <img src={newBee} alt='honey-bee' className='w-40 ' />
 
