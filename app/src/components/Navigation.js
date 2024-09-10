@@ -26,7 +26,7 @@ export default function Navigation () {
           </span>
         </div>
         <div className="block lg:hidden">
-          <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          <button className="flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white"
           onClick={()=> setIsOpen(!open) }>
             <svg
               className="fill-current h-3 w-3"
