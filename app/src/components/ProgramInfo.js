@@ -41,7 +41,7 @@ export default function ProgramInfo() {
               master content and teach you a few new strategies. Feel the reward
               of knowing you invested in your child’s academic success! Have a
               certified educator mirror your child’s{" "}
-              <strong>IEP math goals and strategies</strong>
+              <strong>IEP math goals and strategies</strong>{" "}
               as closely as possible. You pick the time slots that work best for
               your schedule and see your child’s overall level of confidence
               increase!
@@ -75,14 +75,14 @@ export default function ProgramInfo() {
               </div>
               It looks like a foreign language, right? Did you help them find
               the answer and it came back marked wrong? Children today are being
-              taught "NEW" strategies to solve math problems. As an educator,
+              taught <strong>"NEW"</strong> strategies to solve math problems. As an educator,
               I’ve never felt comfortable sending work home for parents to
               review/assist your child without offering the opportunities to
               teach parents the new strategies. How can you adequately help your
               child if you have no clue what they are doing? You cannot.
               <br></br>
               <br></br>Parent Boot Camp allows me to go through step by step and
-              model how to accurately use the "NEW MATH" strategies being used
+              model how to accurately use the <strong>"NEW MATH"</strong> strategies being used
               in classrooms around the world today. This opportunity will ensure
               you are familiar with what your child will be bringing home.
               Attending our parents only, judgement free boot camp will give you
@@ -153,7 +153,7 @@ export default function ProgramInfo() {
               has proven that math manipulatives (tools) and visual notes
               (charts) provide learning experiences that aid with information
               retention and content mastery.
-              <section className="lg:hidden">
+              <section id="mobile-view" className="lg:hidden">
                 <div className="font-bold py-5">
                   Each Mathematician Toolbox Contains:
                 </div>
@@ -206,12 +206,12 @@ export default function ProgramInfo() {
                   <div className="py-5 font-black">*Contents subject to change based on availability*</div>
               
               </section>
-              <section className="hidden md:block lg:block">
+              <section id="desktop-view" className="hidden md:hidden lg:block">
                 <div className="font-bold py-5">
                   Each Mathematician Toolbox Contains:
                 </div>
              <div>
-                  <ul className="font-medium normal-case list-disc flex flex-col-2 justify-between items-start">
+                  <ul className="font-medium normal-case list-disc flex flex-col-2 justify-between items-start p-5">
                     <div>
                   <li>1 Reference name plate</li>
                   <li> 1 Notebook</li>
