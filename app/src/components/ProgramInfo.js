@@ -266,6 +266,7 @@ export default function ProgramInfo() {
                   </ul>
                   </div>
                   <div className="py-5 font-black text-center mt-5">*Contents subject to change based on availability*</div>
+                  <div>Price: $100.00 plus tax and shipping/handling</div>
               
               </section>
             
