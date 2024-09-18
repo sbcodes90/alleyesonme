@@ -203,8 +203,8 @@ export default function ProgramInfo() {
                   <li>Properties of multiplication</li>
                   <li>Fraction Facts</li>
                   </ul>
-                  <div className="py-5 font-black">*Contents subject to change based on availability*</div>
-              
+                  <div className="py-5 font-bold">*Contents subject to change based on availability*</div>
+                  <div className="text-center mt-10 font-black">Price: $100.00 plus tax and shipping/handling</div>
               </section>
               <section id="desktop-view" className="hidden md:hidden lg:block">
                 <div className="font-bold py-5">
@@ -265,8 +265,8 @@ export default function ProgramInfo() {
                   </div>
                   </ul>
                   </div>
-                  <div className="py-5 font-black text-center mt-5">*Contents subject to change based on availability*</div>
-                  <div>Price: $100.00 plus tax and shipping/handling</div>
+                  <div className="py-5 font-bold text-center mt-5">*Contents subject to change based on availability*</div>
+                  <div className="text-center font-black">Price: $100.00 plus tax and shipping/handling</div>
               
               </section>
             
