@@ -19,7 +19,6 @@ export default function ProgramForm({ isOpen, setIsOpen }) {
     { value: 'One-on-One Tutoring', label: 'One-on-One Tutoring' },
     { value: 'Parent Bootcamp', label: 'Parent Bootcamp' },
     { value: 'Mathematics in the Park' , label: 'Mathematics in the Park' },
-    { value: "Mathematician Toolbox" , label:  "Mathematician Toolbox" }
 
   ]
   

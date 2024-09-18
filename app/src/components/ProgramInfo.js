@@ -268,16 +268,14 @@ export default function ProgramInfo() {
                   <div className="py-5 font-black text-center mt-5">*Contents subject to change based on availability*</div>
               
               </section>
-              <div className="font-bold mt-5 text-center">
-                Sign up for updates below! Enrollment will begin soon!
-              </div>
+            
               <div>
                 <button
                   type="submit"
-                  onClick={() => setIsOpen(true)}
+                  
                   className="bg-black text-white w-full rounded-3xl py-5 mt-5 font-bold text-lg"
                 >
-                  Sign Up
+                 Purchase
                 </button>
               </div>
             </div>
