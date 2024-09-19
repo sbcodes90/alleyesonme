@@ -47,9 +47,17 @@ export default function ProgramInfo() {
               increase!
               <br></br>
               <br></br>
-              <strong>
+              <div className="font-bold pb-2">Details:</div>
+              <ul className="font-medium">
+                <li> ~$75 Per Hour, </li>
+                <li>~Book 3 Days/2 Hours Per Day And Save $50, </li>
+                <li>~Monday-Friday School Year Hours 3PM-7PM, </li>
+                <li>~Virtual Only  </li>             
+          
+                </ul>
+         {/*      <strong>
                 Sign up for updates below! Enrollment will begin soon!
-              </strong>
+              </strong> */}
               <div>
                 <button
                   type="submit"
@@ -91,9 +99,22 @@ export default function ProgramInfo() {
               Let me help you so you can help your baby.
               <br></br>
               <br></br>
-              <strong>
+              <div className="font-bold pb-2">
+              Details:
+              </div>
+                <div className="font-medium">
+                  <ul>
+                <li>~$135 Per Session, </li>
+                <li>~Plus 1 Adult for Free,</li>
+                <li>~Materials Provided For Free</li>
+                 <li>~Saturday & Sunday, 1PM-3PM,</li>
+                 <li>~10 Registration Slots Available
+                  <br></br> (Add The Name Of Your Plus 1 In The Comment Section When Registering), In Person/Atlanta</li>
+                </ul>
+                </div>
+              {/* <strong>
                 Sign up for updates below! Enrollment will begin soon!
-              </strong>
+              </strong> */}
               <div>
                 <button
                   type="submit"
