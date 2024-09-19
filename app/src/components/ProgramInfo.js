@@ -17,7 +17,10 @@ export default function ProgramInfo() {
           Programs
         </div>
 
-        <section id="tutoring" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
+        <section
+          id="tutoring"
+          className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl"
+        >
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-yellow-100 lg:rounded-3xl p-5 ">
             <div className="flex flex-col justify-center items-center">
               <img src={beeIcon} alt="beeIcon" className=" w-40" />
@@ -41,10 +44,9 @@ export default function ProgramInfo() {
               master content and teach you a few new strategies. Feel the reward
               of knowing you invested in your child’s academic success! Have a
               certified educator mirror your child’s{" "}
-              <strong>IEP math goals and strategies</strong>{" "}
-              as closely as possible. You pick the time slots that work best for
-              your schedule and see your child’s overall level of confidence
-              increase!
+              <strong>IEP math goals and strategies</strong> as closely as
+              possible. You pick the time slots that work best for your schedule
+              and see your child’s overall level of confidence increase!
               <br></br>
               <br></br>
               <div className="font-bold pb-2">Details:</div>
@@ -52,10 +54,9 @@ export default function ProgramInfo() {
                 <li> ~$75 Per Hour, </li>
                 <li>~Book 3 Days/2 Hours Per Day And Save $50, </li>
                 <li>~Monday-Friday School Year Hours 3PM-7PM, </li>
-                <li>~Virtual Only  </li>             
-          
-                </ul>
-         {/*      <strong>
+                <li>~Virtual Only </li>
+              </ul>
+              {/*      <strong>
                 Sign up for updates below! Enrollment will begin soon!
               </strong> */}
               <div>
@@ -70,7 +71,10 @@ export default function ProgramInfo() {
             </div>
           </div>
         </section>
-        <section id="parent-bootcamps" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
+        <section
+          id="parent-bootcamps"
+          className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl"
+        >
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-pink-100 lg:rounded-3xl p-10 ">
             <div className="flex flex-col justify-center items-center">
               <img src={honeycomb} alt="beeIcon" className="pb-2 w-40" />
@@ -83,35 +87,38 @@ export default function ProgramInfo() {
               </div>
               It looks like a foreign language, right? Did you help them find
               the answer and it came back marked wrong? Children today are being
-              taught <strong>"NEW"</strong> strategies to solve math problems. As an educator,
-              I’ve never felt comfortable sending work home for parents to
-              review/assist your child without offering the opportunities to
-              teach parents the new strategies. How can you adequately help your
-              child if you have no clue what they are doing? You cannot.
+              taught <strong>"NEW"</strong> strategies to solve math problems.
+              As an educator, I’ve never felt comfortable sending work home for
+              parents to review/assist your child without offering the
+              opportunities to teach parents the new strategies. How can you
+              adequately help your child if you have no clue what they are
+              doing? You cannot.
               <br></br>
               <br></br>Parent Boot Camp allows me to go through step by step and
-              model how to accurately use the <strong>"NEW MATH"</strong> strategies being used
-              in classrooms around the world today. This opportunity will ensure
-              you are familiar with what your child will be bringing home.
-              Attending our parents only, judgement free boot camp will give you
-              the confidence needed to fully support your young scholar. This is
-              NOT the same math we did in school. Remember, it takes a village!
-              Let me help you so you can help your baby.
+              model how to accurately use the <strong>"NEW MATH"</strong>{" "}
+              strategies being used in classrooms around the world today. This
+              opportunity will ensure you are familiar with what your child will
+              be bringing home. Attending our parents only, judgement free boot
+              camp will give you the confidence needed to fully support your
+              young scholar. This is NOT the same math we did in school.
+              Remember, it takes a village! Let me help you so you can help your
+              baby.
               <br></br>
               <br></br>
-              <div className="font-bold pb-2">
-              Details:
-              </div>
-                <div className="font-medium">
-                  <ul>
-                <li>~$135 Per Session, </li>
-                <li>~Plus 1 Adult for Free,</li>
-                <li>~Materials Provided For Free</li>
-                 <li>~Saturday & Sunday, 1PM-3PM,</li>
-                 <li>~10 Registration Slots Available
-                  <br></br> (Add The Name Of Your Plus 1 In The Comment Section When Registering), In Person/Atlanta</li>
+              <div className="font-bold pb-2">Details:</div>
+              <div className="font-medium">
+                <ul>
+                  <li>~$135 Per Session, </li>
+                  <li>~Plus 1 Adult for Free,</li>
+                  <li>~Materials Provided For Free</li>
+                  <li>~Saturday & Sunday, 1PM-3PM,</li>
+                  <li>
+                    ~10 Registration Slots Available
+                    <br></br> (Add The Name Of Your Plus 1 In The Comment
+                    Section When Registering), In Person/Atlanta
+                  </li>
                 </ul>
-                </div>
+              </div>
               {/* <strong>
                 Sign up for updates below! Enrollment will begin soon!
               </strong> */}
@@ -127,7 +134,10 @@ export default function ProgramInfo() {
             </div>
           </div>
         </section>
-        <section id="mathematics-in-the-park" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
+        <section
+          id="mathematics-in-the-park"
+          className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl"
+        >
           <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-center items-center bg-teal-100 lg:rounded-3xl p-10 ">
             <div className="flex flex-col justify-center items-center">
               <img src={miniHive} alt="beeIcon" className="pb-2 w-40" />
@@ -141,6 +151,17 @@ export default function ProgramInfo() {
               <strong>Saturdays and Sundays from 10AM-12PM</strong> throughout
               the year for parents and children. You must stay with your child
               the entire duration of the lesson.
+              <p className="font-bold py-2">More Details:</p>
+              <ul className="font-medium">
+                <li>~Free 2 Hour Event, </li>
+                <li>~Materials Provided For Free, </li>
+                <li>~Saturday And Sunday, 10AM-12PM, </li>
+                <li>
+                  ~30 Registration Slots Available (Parents Must Register Each
+                  Child separately, 2 Children Per Adult, Must Add Parent’s Name
+                  In Comment Section When Registering Child) ~In person
+                </li>
+              </ul>
               <div className="font-bold mt-5">
                 Sign up for updates below! Enrollment will begin soon!
               </div>
@@ -157,7 +178,10 @@ export default function ProgramInfo() {
           </div>
         </section>
 
-        <section id="math-toolbox" className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl">
+        <section
+          id="math-toolbox"
+          className="lg:mx-10 md:border-4 md:border-black md:rounded-3xl"
+        >
           <div className="grid grid-cols-1 w-full justify-center items-center bg-purple-100 lg:rounded-3xl p-12 ">
             <div className="flex flex-col justify-center items-center">
               <img src={miniHive} alt="beeIcon" className="pb-2 w-40" />
@@ -178,8 +202,8 @@ export default function ProgramInfo() {
                 <div className="font-bold py-5">
                   Each Mathematician Toolbox Contains:
                 </div>
-             
-                  <ul className="font-medium normal-case list-disc	">
+
+                <ul className="font-medium normal-case list-disc	">
                   <li>1 Reference name plate</li>
                   <li> 1 Notebook</li>
                   <li> 1 pack of line paper</li> <li>1 Folder</li>
@@ -216,88 +240,87 @@ export default function ProgramInfo() {
                   <li>Multiplication strategies</li>
                   <li>Division strategies</li>
                   <li>PEMDAS</li> <li>Number grid</li>
-              <li>Rounding chart</li>
-              
-            <li>C.U.B.E.S. (problem solving steps)</li>
-            <li>Special
-                  quotients</li>
+                  <li>Rounding chart</li>
+                  <li>C.U.B.E.S. (problem solving steps)</li>
+                  <li>Special quotients</li>
                   <li>Properties of multiplication</li>
                   <li>Fraction Facts</li>
-                  </ul>
-                  <div className="py-5 font-bold">*Contents subject to change based on availability*</div>
-                  <div className="text-center mt-10 font-black">Price: $100.00 plus tax and shipping/handling</div>
+                </ul>
+                <div className="py-5 font-bold">
+                  *Contents subject to change based on availability*
+                </div>
+                <div className="text-center mt-10 font-black">
+                  Price: $100.00 plus tax and shipping/handling
+                </div>
               </section>
               <section id="desktop-view" className="hidden md:hidden lg:block">
                 <div className="font-bold py-5">
                   Each Mathematician Toolbox Contains:
                 </div>
-             <div>
+                <div>
                   <ul className="font-medium normal-case list-disc flex flex-col-2 justify-between items-start p-5">
                     <div>
-                  <li>1 Reference name plate</li>
-                  <li> 1 Notebook</li>
-                  <li> 1 pack of line paper</li>
-                  <li>1 Folder</li>
-                  <li>10 Pencils</li>
-                  <li>1 Sharpener</li>
-                  <li>1 Ruler</li>
-                  <li>2 Erasers</li>
-                  <li>1 pack of crayons</li>
-                  <li>Glue</li>
-                  <li>1 pack of markers</li>
-                  <li>1 pair of scissors</li>
-                  <li>Base 10 blocks,</li>
-                  <li>Paper money and coins</li>
-                 
-                  <li>Counters</li>
-                  <li>Personal size teaching analog clock</li>
-                  <li>Pattern blocks</li>
-                  <li>Square tiles</li>
-                  <li>2 ten frame boards and counter set</li>
-               </div>
-               <div>
-                  <li>Cut-out Fraction tiles</li>
-                  <li>Cut-out number line (1-100),</li>
-                  <li>Number chart</li>
-                  
-                
-                  <li>(1-120 with word form)</li>
-                  <li>Multiplication chart (0-12)</li>
-                  <li>Place value chart</li>
-                  <li>
-                    Blank no lines index cards to create flash cards That fit
-                    your child’s needs,
-                  </li>
-                  <li>Geometry charts (shapes, lines, angles)</li>
-                  <li>
-                    Conversion charts (metric/customary, length, time, capacity,
-                    weight, fractions, percent, decimals)
-                  </li>
-                  <li>Multiplication strategies</li>
-                  <li>Division strategies</li>
-                  <li>PEMDAS</li> <li>Number grid</li>
-              <li>Rounding chart</li>
-              
-            <li>C.U.B.E.S. (problem solving steps)</li>
-            <li>Special
-                  quotients</li>
-                  <li>Properties of multiplication</li>
-                  <li>Fraction Facts</li>
-                  </div>
+                      <li>1 Reference name plate</li>
+                      <li> 1 Notebook</li>
+                      <li> 1 pack of line paper</li>
+                      <li>1 Folder</li>
+                      <li>10 Pencils</li>
+                      <li>1 Sharpener</li>
+                      <li>1 Ruler</li>
+                      <li>2 Erasers</li>
+                      <li>1 pack of crayons</li>
+                      <li>Glue</li>
+                      <li>1 pack of markers</li>
+                      <li>1 pair of scissors</li>
+                      <li>Base 10 blocks,</li>
+                      <li>Paper money and coins</li>
+
+                      <li>Counters</li>
+                      <li>Personal size teaching analog clock</li>
+                      <li>Pattern blocks</li>
+                      <li>Square tiles</li>
+                      <li>2 ten frame boards and counter set</li>
+                    </div>
+                    <div>
+                      <li>Cut-out Fraction tiles</li>
+                      <li>Cut-out number line (1-100),</li>
+                      <li>Number chart</li>
+                      <li>(1-120 with word form)</li>
+                      <li>Multiplication chart (0-12)</li>
+                      <li>Place value chart</li>
+                      <li>
+                        Blank no lines index cards to create flash cards That
+                        fit your child’s needs,
+                      </li>
+                      <li>Geometry charts (shapes, lines, angles)</li>
+                      <li>
+                        Conversion charts (metric/customary, length, time,
+                        capacity, weight, fractions, percent, decimals)
+                      </li>
+                      <li>Multiplication strategies</li>
+                      <li>Division strategies</li>
+                      <li>PEMDAS</li> <li>Number grid</li>
+                      <li>Rounding chart</li>
+                      <li>C.U.B.E.S. (problem solving steps)</li>
+                      <li>Special quotients</li>
+                      <li>Properties of multiplication</li>
+                      <li>Fraction Facts</li>
+                    </div>
                   </ul>
-                  </div>
-                  <div className="py-5 font-bold text-center mt-5">*Contents subject to change based on availability*</div>
-                  <div className="text-center font-black">Price: $100.00 plus tax and shipping/handling</div>
-              
+                </div>
+                <div className="py-5 font-bold text-center mt-5">
+                  *Contents subject to change based on availability*
+                </div>
+                <div className="text-center font-black">
+                  Price: $100.00 plus tax and shipping/handling
+                </div>
               </section>
-            
               <div>
                 <button
                   type="submit"
-                  
                   className="bg-black text-white w-full rounded-3xl py-5 mt-5 font-bold text-lg"
                 >
-                 Purchase
+                  Purchase
                 </button>
               </div>
             </div>
