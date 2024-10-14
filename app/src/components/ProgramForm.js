@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import {
   Description,
@@ -21,7 +21,11 @@ export default function ProgramForm({ isOpen, setIsOpen }) {
     { value: 'Mathematics in the Park' , label: 'Mathematics in the Park' },
 
   ]
-  
+
+  const [program, setProgram] = useState({value: null});
+  console.log('program', program.value);
+
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -127,9 +131,33 @@ export default function ProgramForm({ isOpen, setIsOpen }) {
                 </div>
                 <header className="font-bold py-5 text-lg">Programs</header>
              
-  <Select options={options} name="program" className="rounded-2xl" />
-
-               
+  <Select options={options} name="program" className="rounded-2xl" onChange={(value) => setProgram(value)} />
+           {program.value === "One-on-One Tutoring" && 
+           <>
+           <div className="pt-5">
+           <div className="flex gap-10">
+           <label>
+             <input
+               type="radio"
+               name="react-tips"
+               value="$75"
+               className="mr-2"
+             />
+             1 Hour for $75
+           </label>
+           <label>
+             <input
+               type="radio"
+               name="react-tips"
+               value="$400"
+               className="mr-2"
+             />
+             * $50 off Special * 
+             $400 for 3 Days/2 Hours Per Day
+           </label>
+           </div>
+           </div>
+           </>}
                   <button
                     type="submit"
                     className="bg-black text-white w-full rounded-3xl py-5 mt-20"
