@@ -53,7 +53,7 @@ export default function ProgramInfo() {
               <ul className="font-medium">
                 <li> ~$75 Per Hour, </li>
                 <li>~Book 3 Days/2 Hours Per Day And Save $50, </li>
-                <li>~Monday-Friday School Year Hours 3PM-7PM, </li>
+                <li>~Monday-Friday School Year Hours 4PM-7PM, </li>
                 <li>~Virtual Only </li>
               </ul>
               {/*      <strong>
